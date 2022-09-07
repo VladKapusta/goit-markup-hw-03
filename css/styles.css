@@ -267,7 +267,6 @@ body {
 }
 .address-list {
   padding-left: 0;
-  
   margin-bottom: 0;
 }
 .address-list .item:not(:last-child) {
