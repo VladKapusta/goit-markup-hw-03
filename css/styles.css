@@ -15,6 +15,7 @@
   --background-footer: #2f303a;
   --background-team: #f5f5f5;
   --border-color: #ececec;
+  --bg-button-portfolio: #F5F4FA;
 }
 html {
   box-sizing: border-box;
@@ -129,8 +130,11 @@ body {
   text-align: center;
 }
 .hero-titel {
+  width: 696px;
   margin-top: 0;
+  margin-right: auto;
   margin-bottom: 30px;
+  margin-left: auto;
 
   color: var(--white-color);
   font-weight: 900;
@@ -140,9 +144,12 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  padding: 10px 32px;
+
   background-color: var(--acent-color);
   color: var(--white-color);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
@@ -302,8 +309,9 @@ body {
 }
 .filter-list .button {
   padding: 6px 22px;
-  background-color: transparent;
+  background-color: var(--bg-button-portfolio);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
